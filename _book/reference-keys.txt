@@ -1,6 +1,4 @@
-prerequisites
-intro
+summary
 causal-inference-and-population-studies
 foundations
-methods
-summary
+social-networks

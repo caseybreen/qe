@@ -41,46 +41,6 @@
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
-\usepackage{color}
-\usepackage{fancyvrb}
-\newcommand{\VerbBar}{|}
-\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
-\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
-% Add ',fontsize=\small' for more characters per line
-\usepackage{framed}
-\definecolor{shadecolor}{RGB}{248,248,248}
-\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
-\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\BuiltInTok}[1]{#1}
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
-\newcommand{\ExtensionTok}[1]{#1}
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\ImportTok}[1]{#1}
-\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\NormalTok}[1]{#1}
-\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\RegionMarkerTok}[1]{#1}
-\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 \usepackage{longtable,booktabs}
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -113,7 +73,7 @@
 
 \title{Qualifying Exam}
 \author{Casey Breen}
-\date{2020-12-26}
+\date{2020-12-27}
 
 \begin{document}
 \maketitle
@@ -122,27 +82,8 @@
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
-\hypertarget{prerequisites}{%
-\chapter{Prerequisites}\label{prerequisites}}
-
-This is a \emph{sample} book written in \textbf{Markdown}. You can use anything that Pandoc's Markdown supports, e.g., a math equation \(a^2 + b^2 = c^2\).
-
-The \textbf{bookdown} package can be installed from CRAN or Github:
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{install.packages}\NormalTok{(}\StringTok{"bookdown"}\NormalTok{)}
-\CommentTok{# or the development version}
-\CommentTok{# devtools::install_github("rstudio/bookdown")}
-\end{Highlighting}
-\end{Shaded}
-
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading \texttt{\#}.
-
-To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): \url{https://yihui.org/tinytex/}.
-
-\hypertarget{intro}{%
-\chapter{Introduction}\label{intro}}
+\hypertarget{summary}{%
+\chapter{Summary}\label{summary}}
 
 This set of memos covers two reading lists:
 
@@ -179,7 +120,9 @@ The general format of the memos will be as follows:
 \subsection*{Adler, Nancy E., and David H. Rehkopf. 2008}\label{adler-nancy-e.-and-david-h.-rehkopf.-2008}}
 \addcontentsline{toc}{subsection}{Adler, Nancy E., and David H. Rehkopf. 2008}
 
-\textbf{Citation} Adler, Nancy E., and David H. Rehkopf. 2008. ``U.S. Disparities in Health: Descriptions, Causes, and Mechanisms.'' Annual Review of Public Health. \{-\}
+\textbf{Citation}
+
+Adler, Nancy E., and David H. Rehkopf. 2008. ``U.S. Disparities in Health: Descriptions, Causes, and Mechanisms.'' Annual Review of Public Health.
 
 \textbf{Key Background}
 
@@ -233,8 +176,231 @@ The general format of the memos will be as follows:
   How do we collect data with adequate measures of SES, demographic covariates, and health outcomes to identify understand the mechanisms and pathways?
 \end{itemize}
 
-\hypertarget{methods}{%
-\chapter{Methods}\label{methods}}
+\hypertarget{xie-yu.-2013.}{%
+\subsection*{Xie, Yu. 2013.}\label{xie-yu.-2013.}}
+\addcontentsline{toc}{subsection}{Xie, Yu. 2013.}
+
+\textbf{Citation}
+
+Xie, Y. 2013. ``Population Heterogeneity and Causal Inference.'' Proceedings of the National Academy of Sciences 110(16):6262--68. doi: 10.1073/pnas.1303102110.
+
+\textbf{Key Background}
+
+\begin{itemize}
+\tightlist
+\item
+  The core objective of social science research is to understand the (ubiquitous) population heterogeneity. (Not identify abstract and universal laws).
+\item
+  Causal inference with observational data is only possible with strong assumptions.
+\end{itemize}
+
+\textbf{Methods}
+
+\begin{itemize}
+\tightlist
+\item
+  Conceptualize selection into treatment as a dynamic process.
+\item
+  Composition bias is generated by a dynamic process when the treatment proportion changes. Demonstrated via simulation.
+\end{itemize}
+
+\textbf{Research Question}
+
+\begin{itemize}
+\tightlist
+\item
+  What is the relationship between population heterogeneity and causal inference? How can composition bias arise from population heterogeneity?
+\end{itemize}
+
+\textbf{Argument / contribution}
+
+\begin{itemize}
+\tightlist
+\item
+  It is impossible to draw causal inference at the individual level due to heterogeneity.
+\item
+  Composition bias, a form of selection bias, arises often in the real world. For example, if the administration of a medical treatment or social intervention is done on a graduated schedule, where participation is need based. Individuals selected ata later states will have lower ATEs because they are coming from a less responsive sub-population.
+\end{itemize}
+
+\textbf{Key Findings}
+
+\begin{itemize}
+\tightlist
+\item
+  Composition bias occurs because units with a higher intrinsic propensity of treatment are more likely to be over-represented when the treatment proportion is small.
+\item
+  Researchers should be mindful of the specific subgroups of interest when deriving and interpreting average causal estimates from potentially heterogeneous subgroups.
+\end{itemize}
+
+\textbf{Unanswered Questions}
+
+\begin{itemize}
+\tightlist
+\item
+  When can we establish external validity for research results in?
+\end{itemize}
+
+\hypertarget{gangl-markus.-2010}{%
+\subsection*{Gangl, Markus. 2010}\label{gangl-markus.-2010}}
+\addcontentsline{toc}{subsection}{Gangl, Markus. 2010}
+
+\textbf{Citation}
+
+Gangl, Markus. 2010. ``Causal Inference in Sociological Research.'' Annual Review of Sociology 36(1):21--47. doi: 10.1146/annurev.soc.012809.102702.
+
+\textbf{Key Background}
+
+\begin{itemize}
+\tightlist
+\item
+  The counterfactual model provides a natural framework for clarifying the requirements for valid causal inference
+\end{itemize}
+
+\textbf{Methods}
+
+\begin{itemize}
+\tightlist
+\item
+  Summarizes recent literature on causal inference literature (estimands, quasi-experimental designs, diff-in-diff, instrumental variable estimation, semi and non-parametric methods)
+\end{itemize}
+
+\textbf{Research Question}
+
+\begin{itemize}
+\tightlist
+\item
+  What's the role of causal inference in sociological research?
+\end{itemize}
+
+\textbf{Argument / contribution}
+
+\begin{itemize}
+\tightlist
+\item
+  Traditional setup in sociology papers is insufficient---comparing regression specifications and testing competing hypotheses is unlikely to identify any causal effect of interest.
+\item
+  While the benefits of RCTs are widely understood, regression using observational data is the workhorse of sociology research. Lit review provides a sobering view of the efficacy of drawing causal conclusions from regression analysis, as practiced in sociology.
+\item
+  Counterfactual framework doesn't only apply to explicitly manipulable treatments---it can also apply to non-manipulable factors such as gender, race, or class.
+\item
+  Standard treatment of effect estimates are local --- historically and situationally contingent.
+\end{itemize}
+
+\textbf{Key Findings}
+
+\begin{itemize}
+\tightlist
+\item
+  The availability of longitudinal data and informative natural experiments will allow for causal identification within an area plagued by confounders.
+\end{itemize}
+
+\hypertarget{petersen-maya-l.-sandra-e.-sinisi-and-mark-j.-van-der-laan.-2006.}{%
+\subsection*{Petersen, Maya L., Sandra E. Sinisi, and Mark J. van der Laan. 2006.}\label{petersen-maya-l.-sandra-e.-sinisi-and-mark-j.-van-der-laan.-2006.}}
+\addcontentsline{toc}{subsection}{Petersen, Maya L., Sandra E. Sinisi, and Mark J. van der Laan. 2006.}
+
+\textbf{Citation}
+
+Petersen, Maya L., Sandra E. Sinisi, and Mark J. van der Laan. 2006. ``Estimation of Direct Causal Effects.'' Epidemiology 17(3):276--84.
+
+\textbf{Key Background}
+
+\begin{itemize}
+\tightlist
+\item
+  Most common problems in epidemiology (and social science more broadly) involve estimating the effect of an exposure on an outcome while blocking the exposure's effect on an intermediate variable. Estimation of direct effects is typically the goal of research attempting to estimate the causal pathways for which a treatment causes an outcome.
+\item
+  Controlled direct Effect: hold intermediate variable at a fixed level. In contrast, a natural direct effect would measure the effect of the exposure, blocking the exposure's effect on intermediate background but allowing the intermediate to vary among individuals.
+\end{itemize}
+
+\textbf{Methods}
+
+\textbf{Research Question}
+
+What's the difference between a controlled and a natural direct effect and how can the natural direct effect be estimated (and with which underlying assumptions)?
+
+\textbf{Argument / contribution}
+
+\begin{itemize}
+\tightlist
+\item
+  Natural direct effect of an exposure on an individual is defined as the difference in counterfactual outcome if an individual was unexposed vs.~exposed allowing the intermediate to remain at counterfactual level under no exposure. For a controlled direct effect, the intermediate would be set to a fixed value for all persons.
+\item
+  To estimate the direct effect in the whole population, one can take the weighted average of subgroup-specific direct effects with the weight fort a given subgroup determined by the relative size of the subgroup in comparison with the population.
+\item
+  Formal assumptions for estimating controlled and natural effects
+\end{itemize}
+
+\begin{equation}
+A \perp Y_{AZ} | W \\ 
+Z \perp Y_{AZ} | A, W
+\end{equation}
+
+In words, this means no unmeasured confounders of either the effect of the exposure on the outcome of the effect of the intermediate on the outcome.
+
+Additionally, to identify natural direct effects, we need:
+
+\begin{equation}
+A \perp Z_a | W \\ 
+\end{equation}
+
+which in words says there are no unmeasured confounders of the effect of the intermediate on the treatment.
+
+Second, within subgroups defined by covariates, the level of the intermediate variable in the absense of exposure does not tell us anything about the expected magnitude of exposure's effect at a controlled level of the intermediate variable. (Direct effect assumption)
+
+\begin{equation}
+E(Y_{az} - Y_{0z} | Z_0 = z, W) = E(Y_{az} - Y_{0z} | W)
+\end{equation}
+
+\textbf{Key Findings}
+
+\begin{itemize}
+\tightlist
+\item
+  The barriers to estimation of direct effects are not as great as have been previously suggested. Researchers are encouraged to estimate direct effects which giving appropriate consideration to relevant assumptions and interpretations of their estimates.
+\end{itemize}
+
+\hypertarget{imai-kosuke-luke-keele-dustin-tingley-and-teppei-yamamoto.-2011.}{%
+\subsection*{Imai, Kosuke, Luke Keele, Dustin Tingley, and Teppei Yamamoto. 2011.}\label{imai-kosuke-luke-keele-dustin-tingley-and-teppei-yamamoto.-2011.}}
+\addcontentsline{toc}{subsection}{Imai, Kosuke, Luke Keele, Dustin Tingley, and Teppei Yamamoto. 2011.}
+
+\textbf{Citation} ``Unpacking the Black Box of Causality: Learning about Causal Mechanisms from Experimental and Observational Studies.'' American Political Science Review 105(4):765--89. doi: 10.1017/S0003055411000414.
+
+\textbf{Key Background}
+- Many empirical studies focus on establishing whether on variable affects another and fails to explain how such a causal relationship arises. This ``black box'' approach to causality has been criticized across disciplines.
+- A causal mechanism is a process in which a causal variable of interest influences an outcome.
+- Quantitative investigation of causal mechanisms is based on the estimation of causal mediation effects.
+
+\textbf{Methods}
+- Review of causal inference literature, particularly as it applies to the estimation of causal mediation effects.
+
+\textbf{Research Question}\\
+How can researchers better identify the causal mechanisms behind observed causal effects.
+
+\textbf{Argument / contribution}
+- Consistency assumption---potential outcomes must take the same values as long as the treatment and mediator values are the same---is especially important in the analysis of causal mechanisms. Even if experimental designs involve the manipulation of mediators, one must assume that subjects would respond in the same way if those values of mediators were spontaneously chosen by the subjects themselves.
+- Instrumental variables: assume that there is no direct effect on the outcome and effects all units in one direction. However, this often leads to the ``black box'' approach to causal inference, where insufficient attenuation is paid to causal mechanisms.\\
+- Given the difficult of studying causal mechanisms, some researchers believe that a focus should be place on identifiation of causal effects and not causal mechanisms.
+
+\textbf{Key Finding / Conclusion}
+
+\begin{itemize}
+\tightlist
+\item
+  Paper demonstrates three ways to move forward in research into causal mechanisms. First, the potential outcomes model of causal inference. Second, a sensitivity analysis to evaluate robustness of conclusions. Finally, new research designs for experimental and observational studies can reduce need for untestable conclusions. These new methods allow the black box of causality to be unpacked, going beyond the estimation of causal effects.
+\end{itemize}
+
+\textbf{Unanswered Questions}
+
+---------------------------------------------------
+\textbf{Key Background}
+\textbf{Methods}
+\textbf{Research Question}\\
+\textbf{Argument / contribution}
+\textbf{Key Findings}
+\textbf{Unanswered Questions}
+
+\hypertarget{social-networks}{%
+\chapter{Social Networks}\label{social-networks}}
 
 We describe our methods in this chapter.
 
