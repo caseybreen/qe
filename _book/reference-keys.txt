@@ -1,7 +1,0 @@
-summary
-causal-inference-and-population-studies
-foundations
-applications
-tran-linh-constantin-t.-yiannoutsos-beverly-s.-musick-kara-k.-wools-kaloustian-abraham-siika-sylvester-kimaiyo-mark-j.-van-der-laan-and-maya-petersen.-2016.
-halpern-manners-andrew-jonas-helgertz-john-robert-warren-and-evan-roberts.-2020.
-social-networks

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  31 DEC 2020 18:30
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  2 JAN 2021 11:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1287,25 +1287,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 626--628
 
  []
 
-[16] [17] [18]
-Underfull \hbox (badness 6412) in paragraph at lines 779--779
-[]\TU/lmr/bx/n/14.4 Tran, Linh, Constantin T. Yiannout-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[19] [20]
+[16] [17] [18] [19]
 ! Extra }, or forgotten $.
 l.833     Represent causal model \(\mathcal{M}^F}
                                                  \) using the structural equ...
  
 Here is how much of TeX's memory you used:
- 25779 strings out of 492970
- 470076 string characters out of 6133938
+ 25778 strings out of 492970
+ 470071 string characters out of 6133938
  685542 words of memory out of 5000000
- 29551 multiletter control sequences out of 15000+600000
+ 29550 multiletter control sequences out of 15000+600000
  536593 words of font info for 73 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 58i,6n,117p,10397b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
-Output written on qe.pdf (20 pages).
+ 58i,6n,117p,10397b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
+Output written on qe.pdf (19 pages).

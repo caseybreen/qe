@@ -1,3 +1,36 @@
+--- 
+title: "Qualifying Exam"
+author: "Casey Breen"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+---
+
+# Summary 
+
+This set of memos covers two reading lists: 
+
+- Causal Inference and Population Studies
+- Social Networks
+
+The general format of the memos will be as follows: 
+
+- Key Background 
+
+- Data / Methods 
+
+- Research Question 
+
+- Argument / contribution 
+
+- Open Questions 
+
+<!--chapter:end:index.Rmd-->
+
 # Causal Inference and Population Studies 
 
 ## Foundations 
@@ -552,4 +585,19 @@ Petersen, Maya L., Kristin E. Porter, Susan Gruber, Yue Wang, and Mark J. van de
 - Define the causal effect of interest based on careful consideration of structural positivity violations. Then consider estimator behavior given positivty violations when selecting an estimator. Quantitatively assess the amount of bias under simulated data to approximate the true data generating distribution and finally select an estimator that systematically selects between data support and proximity to the initial target of inference. 
 
 **Open Questions** 
+
+
+<!--chapter:end:01-causal_inference.Rmd-->
+
+# Social Networks
+
+We describe our methods in this chapter.
+
+<!--chapter:end:02-social_networks.Rmd-->
+
+`r if (knitr::is_html_output()) '
+# References {-}
+'`
+
+<!--chapter:end:03-references.Rmd-->
 

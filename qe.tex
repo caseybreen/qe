@@ -73,7 +73,7 @@
 
 \title{Qualifying Exam}
 \author{Casey Breen}
-\date{2020-12-31}
+\date{2021-01-02}
 
 \begin{document}
 \maketitle
@@ -776,7 +776,7 @@ Taubman, Sarah L., James M. Robins, Murray A. Mittleman, and Miguel A. Hernán. 
 \textbf{Unanswered Questions}
 
 \hypertarget{tran-linh-constantin-t.-yiannoutsos-beverly-s.-musick-kara-k.-wools-kaloustian-abraham-siika-sylvester-kimaiyo-mark-j.-van-der-laan-and-maya-petersen.-2016.}{%
-\section{Tran, Linh, Constantin T. Yiannoutsos, Beverly S. Musick, Kara K. Wools-Kaloustian, Abraham Siika, Sylvester Kimaiyo, Mark J. van der Laan, and Maya Petersen. 2016.}\label{tran-linh-constantin-t.-yiannoutsos-beverly-s.-musick-kara-k.-wools-kaloustian-abraham-siika-sylvester-kimaiyo-mark-j.-van-der-laan-and-maya-petersen.-2016.}}
+\subsection{Tran, Linh, Constantin T. Yiannoutsos, Beverly S. Musick, Kara K. Wools-Kaloustian, Abraham Siika, Sylvester Kimaiyo, Mark J. van der Laan, and Maya Petersen. 2016.}\label{tran-linh-constantin-t.-yiannoutsos-beverly-s.-musick-kara-k.-wools-kaloustian-abraham-siika-sylvester-kimaiyo-mark-j.-van-der-laan-and-maya-petersen.-2016.}}
 
 \textbf{Citation}
 
@@ -857,23 +857,205 @@ Tran, Linh, Constantin T. Yiannoutsos, Beverly S. Musick, Kara K. Wools-Kalousti
 \end{itemize}
 
 \hypertarget{halpern-manners-andrew-jonas-helgertz-john-robert-warren-and-evan-roberts.-2020.}{%
-\section{Halpern-Manners, Andrew, Jonas Helgertz, John Robert Warren, and Evan Roberts. 2020.}\label{halpern-manners-andrew-jonas-helgertz-john-robert-warren-and-evan-roberts.-2020.}}
+\subsection{Halpern-Manners, Andrew, Jonas Helgertz, John Robert Warren, and Evan Roberts. 2020.}\label{halpern-manners-andrew-jonas-helgertz-john-robert-warren-and-evan-roberts.-2020.}}
 
 \textbf{Citation}
 
 Halpern-Manners, Andrew, Jonas Helgertz, John Robert Warren, and Evan Roberts. 2020. ``The Effects of Education on Mortality: Evidence From Linked U.S. Census and Administrative Mortality Data.'' Demography.
 
 \textbf{Key Background}
-- Most scholars conclude that there is a causal link between education and
+
+\begin{itemize}
+\tightlist
+\item
+  Most scholars conclude that there is a causal link between education and longevity, but recent studies have proposed that education is primarily a proxy for unobserved endowments that promote longevity.
+\end{itemize}
 
 \textbf{Research Question}
-- Does education causally change people's lives in a way that delays mortality?
+
+\begin{itemize}
+\tightlist
+\item
+  Does education causally change people's lives in a way that delays mortality?
+\end{itemize}
 
 \textbf{Methods}
 
+\begin{itemize}
+\tightlist
+\item
+  The authors use the 1920 full-count census to identify siblings. Next, they link to the 1940 census to obtain key covariates --- including a measure of education --- and finally, link to the Numident records. In effect, they have created a longitudinal panel.\\
+\item
+  Empirical strategy: standard fixed-effects specification for within-pairs estimation of twins and siblings, measuring continuous measures of age at death for individuals in twinships as a factor of years of schooling, unobserved contextual characteristics, such as family, peer group, and unobserved genetic endowments.
+\item
+  Looking at educational discordance
+\end{itemize}
+
 \textbf{Argument / contribution}
 
+\begin{itemize}
+\tightlist
+\item
+  Potential confounders include social or economic background, their intelligence, their early-life health, and any other hard-to-observe endowments or contextual exposures that jointly predict educational attainment and survival.
+\item
+  Findings suggest that the effects of education on mortality are positive in the aggregate.\\
+\item
+  There may be significant effect heterogeneity. Perhaps presence of cumulative advantage --- resource multiplication hypothesis --- means that the biggest returns go to individuals who are the most advantaged.
+\item
+  By running a set of increasingly stringent model specifications, the authors are left with an attenuated but still strong and significant relationship between education and longevity, differencing out features of neighborhood, family, and genetic endowment.
+\end{itemize}
+
 \textbf{Key Findings}
+
+\begin{itemize}
+\tightlist
+\item
+  There is a strong and significant positive causal effect of education on longevity, but caution is warranted for both internal validity (within-pair design does not control fo early-life health conditions and illnessses, personality characteristics, or genetic endownments). Further, external validity also of course warrants caution, as it is likely that this relationship varies substantially across time, space, and populations.
+\item
+  Each additional year of schooling causes a 0.347 y increase in longevity.
+\end{itemize}
+
+\textbf{Open Questions}
+
+\begin{itemize}
+\tightlist
+\item
+  Do these same patterns hold across key population subgroups? To what extent is there effect heterogeneity? Who benefits the most from education?
+\item
+  To what extent do these findings generalize to women?
+\end{itemize}
+
+\hypertarget{methods}{%
+\section{Methods}\label{methods}}
+
+\hypertarget{the-consistency-assumption-for-causal-inference-in-social-epidemiology-when-a-rose-is-not-a-rose}{%
+\subsection{The Consistency Assumption for Causal Inference in Social Epidemiology: When a Rose is not a Rose}\label{the-consistency-assumption-for-causal-inference-in-social-epidemiology-when-a-rose-is-not-a-rose}}
+
+\textbf{Citation}
+
+Rehkopf, David H., M. Maria Glymour, and Theresa L. Osypuk. 2016. ``The Consistency Assumption for Causal Inference in Social Epidemiology: When a Rose Is Not a Rose.'' Current Epidemiology Reports 3(1):63--71.
+
+\textbf{Key Background}
+
+\begin{itemize}
+\item
+  The leap between exposures and measured and exposures as intervene upon is typically supported by the consistency assumption, which entails that exposure is defined with enough specificity that different variants of the exposure do not have different effects on the outcome.
+\item
+\end{itemize}
+
+\textbf{Research Question}
+
+\begin{itemize}
+\tightlist
+\item
+  How should social epidemiolgists studies be more explicit in naming and discussing consistency assumptions when describing the exposure of interest? When is the consistency assumption violated and how can such violations be attended to to help design more effective interventions.
+\end{itemize}
+
+\textbf{Methods}
+
+\begin{itemize}
+\tightlist
+\item
+  General discussion of consistency assumption and three examples (income, education, and neighborhood) where this assumption may be violated.
+\end{itemize}
+
+\textbf{Argument / contribution}
+
+\begin{itemize}
+\tightlist
+\item
+  The consistency assumption requires that there are no two ``flavors'' or versions of treatment such that \(X = 1\) under both versions but the potential outcome for \(Y\) would be different under the alternative versions.
+\item
+  Note this is different that the Bradford Hill Criterion of ``consistency'' which invokes the view that if most studies find a similar result the association is more likely to be causal than if different studies report different results. (And no consistency statistical estimator, i.e., an estimator that moves closer to the truth in larger sample sizes.)
+\item
+  Should we seek causal explanations only for definable interventions? Maybe. (This is the manipulability criterion.)
+\item
+  For example, if we have composite SES score, and intervening on SES by increasing education has different health consequences than intervening on SES by increasing income, than SES is not a well-defined intervention and violates consistency criterion.
+\item
+  Perhaps the consistency criterion is overlooked because it's so fundamental to causal inference.
+\item
+  Related but distinct concern is effect measure modification. The effect measure modification occurs when an outcome of interest is different in some subgroups of the population as compared to others (e.g., heart disease differs between men and women).
+\item
+  Finally, exposures that influence an outcome via multiple mediating pathways do not necessarily violate the consistency assumption; however, the do imply potential for violations as possible interventions could trigger some but not all mediating pathways.
+\item
+  In practice: Income and education both may be highly susceptible to consistency violations. For education, aspects of quality such as school term duration, quality, peers, talents, prestige, networks, etc.
+\end{itemize}
+
+\textbf{Key Findings}
+
+\begin{itemize}
+\tightlist
+\item
+  Initial research may appropriately back-burner consistency to evaluate whether one component of a large but ill-defined treatment influences outcome. This is particularly appropriate for new research areas.
+\item
+  Studies should be explicit about the assumptions of their version of treatment or exposure (\(k\)) and draw on both theoretical and empirical evidence to identify potential variation in treatment. Further, unless there is strong evidence there is not a consistency violation, researchers should use a limited range of treatments and systemically assess different versions of the specific exposure.
+\item
+  More broadly, violations of the consistency assumption in social science research may give another explanation of heterogenous research results from observational studies.
+\end{itemize}
+
+\textbf{Open Questions}
+
+\hypertarget{petersen-maya-l.-kristin-e.-porter-susan-gruber-yue-wang-and-mark-j.-van-der-laan.-2012.}{%
+\subsection{Petersen, Maya L., Kristin E. Porter, Susan Gruber, Yue Wang, and Mark J. van der Laan. 2012.}\label{petersen-maya-l.-kristin-e.-porter-susan-gruber-yue-wang-and-mark-j.-van-der-laan.-2012.}}
+
+\textbf{Citation }
+
+Petersen, Maya L., Kristin E. Porter, Susan Gruber, Yue Wang, and Mark J. van der Laan. 2012. ``Diagnosing and Responding to Violations in the Positivity Assumption.'' Statistical Methods in Medical Research 21(1):31--54. doi: 10.1177/0962280210386207.
+
+\textbf{Key Background}
+
+\begin{itemize}
+\tightlist
+\item
+  While confounding bias is a well-recognized source of bias in causal inference effect estimation, relatively little attention has been paid to the assumption of positivity.
+\item
+  Positivity assumption refers to the need for adequate exposure variability within confounder strata as the assumption of positivity or experimental treatment assignment.
+  - May be theoretically impossible for individuals with certain covariate values to receive a given exposure of interest. (Structural or theoretical violation)
+  - May be due to chance due to finite sample sizes and large adjustment sets (with continuous or multi-level covariates).
+\end{itemize}
+
+\textbf{Research Question}
+
+\textbf{Methods}
+- Application of parametric bootstrap to (1) simulated data and (2) observational cohort of HIV-infected patients using G-comp, IPTW, and DR TMLE estimators.
+
+\textbf{Argument / contribution}
+
+\begin{itemize}
+\tightlist
+\item
+  Strong Positivity Assumption, which may be relaxed under some assumed parametric models
+\end{itemize}
+
+\begin{equation}
+\underset{a \in \mathcal{A}}{inf}(a | W) > 0, -a.e.
+\end{equation}
+
+\begin{itemize}
+\tightlist
+\item
+  IPTW estimators are very sensitive to violations or near-violations of the positivity assumption. Weights can be truncated (introducing bias) or stabilized
+\item
+  Double robust estimators and G-Comp estimators will face some difficulties when positivy doesn't hold.
+\item
+  To diagnose potential violations of the positivity assumption, we can examine the distribution of estimated propensity scores (very low propensity scores denote near positivity violations). This can be applied for any estimator!
+\item
+  While propensity scores can be used for diagnosis, they don't give any quantitative estimate of the degree to which such violations are resulting in estimator bias and may pose a threat to inference.
+\item
+  The parametric bootstrap an be applied to further diagnose near positivity violations, but the performance of an estimator therefore depends on the extent to which the observed data distribution approximates the true data generating process. So, the parametric bootstrap will not tell us a good estimate of the true bias --- again, it is mostly recommended as a diagnostic tool.
+\item
+  There are a few practical approaches to causal inference in the presence of positivity violations. First, the projection function can be changed on the marginal structural model (MSM). Second, the adjustment set can be restricted. Specifically, the exclusion of a problematic \(W\) means trading some confounding bias for a reduction in positivity violations. Third, the sample can be restricted, sometimes referred to as `trimming'. Specifically, such an approach can be implemented by discarding subjects with covariate values not represented in all treatment groups. Finally, the intervention itself can be changed.
+\end{itemize}
+
+\textbf{Key Findings}
+
+\begin{itemize}
+\tightlist
+\item
+  Define the causal effect of interest based on careful consideration of structural positivity violations. Then consider estimator behavior given positivty violations when selecting an estimator. Quantitatively assess the amount of bias under simulated data to approximate the true data generating distribution and finally select an estimator that systematically selects between data support and proximity to the initial target of inference.
+\end{itemize}
+
+\textbf{Open Questions}
 
 \hypertarget{social-networks}{%
 \chapter{Social Networks}\label{social-networks}}
